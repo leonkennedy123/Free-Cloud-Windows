@@ -4,8 +4,7 @@ on:
   schedule:
     - cron: '0 */6 * * *'  # روشن شدن خودکار هر ۶ ساعت یک‌بار (۲۴/۷)
   workflow_dispatch:        # استارت دستی با دکمه Run
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
